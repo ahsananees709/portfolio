@@ -23,7 +23,7 @@ export function Contact(){
           <a href="tel:+923404987723">(+92) 3404987723</a>
         </div>  
       </div>
-      <Form></Form>
+      {/* <Form></Form> */}
     </Container>
   )
 }

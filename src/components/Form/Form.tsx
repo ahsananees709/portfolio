@@ -1,47 +1,45 @@
 import { Container, ContainerSucces } from './styles'
-import { useForm, ValidationError } from '@formspree/react'
+import { useState } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
-import ReCAPTCHA from 'react-google-recaptcha'
-import { useEffect, useState } from 'react'
+import emailjs from 'emailjs-com'
 import validator from 'validator'
 
 export function Form() {
-  const [state, handleSubmit] = useForm('xknkpqry')
   const [validEmail, setValidEmail] = useState(false)
   const [message, setMessage] = useState('')
+  const [buttonText, setButtonText] = useState('Submit')
+  const [isSubmitting, setIsSubmitting] = useState(false)
+
   function verifyEmail(email: string) {
-    if (validator.isEmail(email)) {
-      setValidEmail(true)
+    setValidEmail(validator.isEmail(email))
+  }
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    if (validEmail && message) {
+      setIsSubmitting(true)
+      setButtonText('Submitting...')
+      
+      const formData = {
+        email: (e.currentTarget.email as HTMLInputElement).value,
+        message: (e.currentTarget.message as HTMLTextAreaElement).value
+      }
+      
+      emailjs.send('service_rv60y0n', 'template_x85moje', formData, 'FtTOKEnRdNlLd2ZHb')
+        .then((result) => {
+          setButtonText('Submit')
+          setIsSubmitting(false)
+          toast.success('Request Added successfully. We will shortly contact you.')
+        }, (error) => {
+          setButtonText('Submit')
+          setIsSubmitting(false)
+          toast.error('Error while submitting request.')
+        })
     } else {
-      setValidEmail(false)
+      toast.error('Please enter a valid email and message.')
     }
   }
-  useEffect(() => {
-    if (state.succeeded) {
-      toast.success('Email successfully sent!', {
-        position: toast.POSITION.BOTTOM_LEFT,
-        pauseOnFocusLoss: false,
-        closeOnClick: true,
-        hideProgressBar: false,
-        toastId: 'succeeded',
-      })
-    }
-  })
-  if (state.succeeded) {
-    return (
-      <ContainerSucces>
-        <h3>Thanks for getting in touch!</h3>
-        <button
-          onClick={() => {
-            window.scrollTo({ top: 0, behavior: 'smooth' })
-          }}
-        >
-          Back to the top
-        </button>
-        <ToastContainer />
-      </ContainerSucces>
-    )
-  }
+
   return (
     <Container>
       <h2>Get in touch using the form</h2>
@@ -56,7 +54,6 @@ export function Form() {
           }}
           required
         />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
           placeholder="Send a message to get started."
@@ -66,16 +63,11 @@ export function Form() {
             setMessage(e.target.value)
           }}
         />
-        <ValidationError
-          prefix="Message"
-          field="message"
-          errors={state.errors}
-        />
         <button
           type="submit"
-          disabled={state.submitting || !validEmail || !message}
+          disabled={isSubmitting || !validEmail || !message}
         >
-          Submit
+          {buttonText}
         </button>
       </form>
       <ToastContainer />

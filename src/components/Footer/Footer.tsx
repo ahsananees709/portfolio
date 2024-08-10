@@ -40,7 +40,7 @@ export function Footer() {
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://www.instagram.com/vinayaksingh.in"
+          href="https://www.instagram.com/ahsansandhu55"
           target="_blank"
           rel="noreferrer"
         >

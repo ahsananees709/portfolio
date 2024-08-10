@@ -50,8 +50,8 @@ export const Container = styled.section`
 
   img {
     margin-top: 2rem;
-    width: 450px; /* Adjust the size as needed */
-    height: 450px; /* Same as width to make it a circle */
+    width: 350px; /* Adjust the size as needed */
+    height: 350px; /* Same as width to make it a circle */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the circle area */
     filter: grayscale(100%); /* Apply grayscale effect */
