@@ -28,54 +28,54 @@ interface ProjectType {
 }
 
 const projects: ProjectType[] = [
-    {
-              title: 'Serverless Voting Application for Programming Languages',
-              description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI.',
-              imageSrc: AhsanAnees,
-              techStack: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
-              githubLink: '',
-              liveLink: ''
-              },
-              {
-                title: 'Serverless Voting Application for Programming Languages',
-                description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI.',
-                imageSrc: AhsanAnees,
-                techStack: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
-                githubLink: '',
-                liveLink: ''
-              },
-              {
-                title: 'Serverless Voting Application for Programming Languages',
-                description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI.',
-                imageSrc: AhsanAnees,
-                techStack: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
-                githubLink: '',
-                liveLink: ''
-              },
-              {
-                title: 'Serverless Voting Application for Programming Languages',
-                description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI.',
-                imageSrc: AhsanAnees,
-                techStack: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
-                githubLink: '',
-                liveLink: ''
-              },
-              {
-                title: 'Serverless Voting Application for Programming Languages',
-                description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI.',
-                imageSrc: AhsanAnees,
-                techStack: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
-                githubLink: '',
-                liveLink: ''
-              },
-              {
-                title: 'Serverless Voting Application for Programming Languages',
-                description: 'Developed a serverless voting app using React, AWS Lambda, API Gateway, and DynamoDB, enabling users to view programming languages, cast votes, and access details through an interactive UI.',
-                imageSrc: AhsanAnees,
-                techStack: ['AWS Lambda', 'API Gateway', 'DynamoDB'],
-                githubLink: '',
-                liveLink: ''
-              },
+  {
+    title: 'Dummy Project 1',
+    description: 'A full-stack application developed with React and Node.js, featuring a modern UI and RESTful API integration.',
+    imageSrc: AhsanAnees,
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
+    githubLink: '',
+    liveLink: ''
+  },
+  {
+    title: 'Dummy Project 2',
+    description: 'An e-commerce platform built with Vue.js and Firebase, offering real-time product updates and user authentication.',
+    imageSrc: AhsanAnees,
+    techStack: ['Vue.js', 'Firebase', 'Vuex', 'Firestore'],
+    githubLink: '',
+    liveLink: ''
+  },
+  {
+    title: 'Dummy Project 3',
+    description: 'A personal blog website developed using Gatsby.js and GraphQL, with a focus on performance and SEO optimization.',
+    imageSrc: AhsanAnees,
+    techStack: ['Gatsby.js', 'GraphQL', 'Netlify', 'Markdown'],
+    githubLink: '',
+    liveLink: ''
+  },
+  {
+    title: 'Dummy Project 4',
+    description: 'A mobile app built with React Native and Expo, featuring a sleek interface and integration with various APIs for data retrieval.',
+    imageSrc: AhsanAnees,
+    techStack: ['React Native', 'Expo', 'Axios', 'Redux'],
+    githubLink: '',
+    liveLink: ''
+  },
+  {
+    title: 'Dummy Project 5',
+    description: 'A real-time chat application using WebSocket and Django Channels, providing instant messaging capabilities and notifications.',
+    imageSrc: AhsanAnees,
+    techStack: ['Django', 'Django Channels', 'WebSocket', 'Redis'],
+    githubLink: '',
+    liveLink: ''
+  },
+  {
+    title: 'Dummy Project 6',
+    description: 'An analytics dashboard built with Angular and Chart.js, offering dynamic visualizations and interactive data reports.',
+    imageSrc: AhsanAnees,
+    techStack: ['Angular', 'Chart.js', 'TypeScript', 'D3.js'],
+    githubLink: '',
+    liveLink: ''
+  }
 ];
 
 export function Project() {
