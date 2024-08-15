@@ -21,7 +21,7 @@ export const Container = styled.section`
 }
   .projects{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 2rem;
     padding: 1rem;
@@ -78,6 +78,7 @@ export const Container = styled.section`
         margin-top: auto;
         .tech-list{
           display: flex;
+          flex-wrap: wrap;
           align-items: center;
           gap: 2rem;
           font-size: 1.4rem;

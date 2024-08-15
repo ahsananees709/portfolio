@@ -1,21 +1,14 @@
-// import { Container } from "./styles";
-// import githubIcon from "../../assets/github.svg"
-// // import DownloadApp from '../../assets/download.png'
-// import externalLink from "../../assets/external-link.svg"
-// import ScrollAnimation from "react-animate-on-scroll";
-// import AhsanAnees from '../../assets/2.jpg'
-
-// import React, { useState } from 'react';
-
-// import Modal from '../Modal/Modal'; // Import the Modal component
-
 import React, { useState, useEffect, useRef } from 'react';
 import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg";
 import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
-import AhsanAnees from '../../assets/2.jpg';
 import Modal from '../Modal/Modal';
+import Project1 from '../../assets/Frame 1.jpg'
+import Project2 from '../../assets/Frame 2.jpg'
+import Project3 from '../../assets/Frame 3.jpg'
+import Project4 from '../../assets/Frame 4.jpg'
+import Project5 from '../../assets/Frame 5.jpg'
 
 // Define TypeScript types
 interface ProjectType {
@@ -29,53 +22,37 @@ interface ProjectType {
 
 const projects: ProjectType[] = [
   {
-    title: 'Dummy Project 1',
-    description: 'A full-stack application developed with React and Node.js, featuring a modern UI and RESTful API integration.',
-    imageSrc: AhsanAnees,
-    techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
-    githubLink: '',
-    liveLink: ''
+    title: 'E-Commerce Website',
+    description: 'A full-stack e-commerce platform built with React and Django, featuring a modern UI and robust RESTful API integration. The backend utilizes Django Rest Framework and MySQL, while the front-end delivers dynamic user experiences with JavaScript.',
+    imageSrc: Project1,
+    techStack: ['React', 'Javascript', 'Django', 'Python', 'MySQL', 'DjangoRestFraamework'],
+    githubLink: 'https://github.com/ahsananees709/shoppingstore',
+    liveLink: 'https://github.com/ahsananees709/shoppingstore'
   },
   {
-    title: 'Dummy Project 2',
-    description: 'An e-commerce platform built with Vue.js and Firebase, offering real-time product updates and user authentication.',
-    imageSrc: AhsanAnees,
-    techStack: ['Vue.js', 'Firebase', 'Vuex', 'Firestore'],
-    githubLink: '',
-    liveLink: ''
+    title: 'Gulzar Soft Website',
+    description: 'A professional website for a software house, built with Next.js and Tailwind CSS. It features a sleek, responsive design with smooth navigation, optimized performance, and interactive UI elements, enhanced by Toastify notifications.',
+    imageSrc: Project3,
+    techStack: ['Nextjs', 'Tailwind CSS', 'Javascript', 'Toastify'],
+    githubLink: 'https://github.com/ahsananees709/gulzarsoftwebsite',
+    liveLink: 'https://github.com/ahsananees709/gulzarsoftwebsite'
   },
   {
-    title: 'Dummy Project 3',
-    description: 'A personal blog website developed using Gatsby.js and GraphQL, with a focus on performance and SEO optimization.',
-    imageSrc: AhsanAnees,
-    techStack: ['Gatsby.js', 'GraphQL', 'Netlify', 'Markdown'],
-    githubLink: '',
-    liveLink: ''
-  },
-  {
-    title: 'Dummy Project 4',
+    title: 'E-Services Replica of Fiver',
     description: 'A mobile app built with React Native and Expo, featuring a sleek interface and integration with various APIs for data retrieval.',
-    imageSrc: AhsanAnees,
-    techStack: ['React Native', 'Expo', 'Axios', 'Redux'],
+    imageSrc: Project4,
+    techStack: ['React', 'Node', 'Express', 'Redux', 'Postgressql', 'drizzle', 'socket.io', 'adminpanel'],
+    githubLink: 'https://github.com/ahsananees709/e-services',
+    liveLink: 'https://github.com/ahsananees709/e-services'
+  },
+  {
+    title: 'Prime Chat',
+    description: 'A real-time chat application using WebSockets, providing instant messaging capabilities and notifications.',
+    imageSrc: Project5,
+    techStack: ['Javascript', 'Nodejs', 'WebSocket'],
     githubLink: '',
     liveLink: ''
   },
-  {
-    title: 'Dummy Project 5',
-    description: 'A real-time chat application using WebSocket and Django Channels, providing instant messaging capabilities and notifications.',
-    imageSrc: AhsanAnees,
-    techStack: ['Django', 'Django Channels', 'WebSocket', 'Redis'],
-    githubLink: '',
-    liveLink: ''
-  },
-  {
-    title: 'Dummy Project 6',
-    description: 'An analytics dashboard built with Angular and Chart.js, offering dynamic visualizations and interactive data reports.',
-    imageSrc: AhsanAnees,
-    techStack: ['Angular', 'Chart.js', 'TypeScript', 'D3.js'],
-    githubLink: '',
-    liveLink: ''
-  }
 ];
 
 export function Project() {
