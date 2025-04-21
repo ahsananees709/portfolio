@@ -1,11 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.018f3c02.css",
-    "main.js": "/portfolio/static/js/main.158e4252.js",
+    "main.js": "/portfolio/static/js/main.ffb2dbbf.js",
+    "static/media/Ajar.png": "/portfolio/static/media/Ajar.de846bf7533f85d3aecf.png",
+    "static/media/LonicFlex.png": "/portfolio/static/media/LonicFlex.06af197c7ac895ae0338.png",
+    "static/media/QuizApp.png": "/portfolio/static/media/QuizApp.37aaa55bef9c74ac916a.png",
     "static/media/Ahsan_Anees_Resume.pdf": "/portfolio/static/media/Ahsan_Anees_Resume.5fc8141166b5fc69dd1d.pdf",
+    "static/media/EServices.png": "/portfolio/static/media/EServices.9ed34f7230a49aac3c30.png",
     "static/media/Hello.gif": "/portfolio/static/media/Hello.d93720933c608f6178fb.gif",
-    "static/media/2.jpg": "/portfolio/static/media/2.c7ef0b848888ac111870.jpg",
-    "static/media/AhsanAnees.jpg": "/portfolio/static/media/AhsanAnees.c666f6fb036ff19b552a.jpg",
+    "static/media/TodoApp.png": "/portfolio/static/media/TodoApp.7d84d88ef4f60c4a7a45.png",
+    "static/media/AjarAdmin.png": "/portfolio/static/media/AjarAdmin.40356230153043743dd2.png",
+    "static/media/AhsanMartAdmin.png": "/portfolio/static/media/AhsanMartAdmin.cdea7e766ba04d399f82.png",
+    "static/media/OneAcademy.png": "/portfolio/static/media/OneAcademy.5ccbfeab81cc82a990b2.png",
+    "static/media/AirBnb.png": "/portfolio/static/media/AirBnb.ed8909208eaa01aa312f.png",
+    "static/media/AhsanMart.png": "/portfolio/static/media/AhsanMart.a81d8fb59fc8f53c898f.png",
+    "static/media/AhsanAnees.jpg": "/portfolio/static/media/AhsanAnees.1068c74381c424bf8fa5.jpg",
+    "static/media/BudgetApp.png": "/portfolio/static/media/BudgetApp.f2311a358883f2fb4388.png",
     "static/media/illustration.svg": "/portfolio/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
     "static/media/sass-icon.svg": "/portfolio/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
     "static/media/node-icon.svg": "/portfolio/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
@@ -27,10 +37,10 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "main.018f3c02.css.map": "/portfolio/static/css/main.018f3c02.css.map",
-    "main.158e4252.js.map": "/portfolio/static/js/main.158e4252.js.map"
+    "main.ffb2dbbf.js.map": "/portfolio/static/js/main.ffb2dbbf.js.map"
   },
   "entrypoints": [
     "static/css/main.018f3c02.css",
-    "static/js/main.158e4252.js"
+    "static/js/main.ffb2dbbf.js"
   ]
 }
