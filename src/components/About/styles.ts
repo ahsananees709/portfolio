@@ -54,7 +54,7 @@ export const Container = styled.section`
     height: 350px; /* Same as width to make it a circle */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the circle area */
-    filter: grayscale(100%); /* Apply grayscale effect */
+    filter: grayscale(10%); /* Apply grayscale effect */
     transition: filter 0.5s, transform 0.3s; /* Smooth transition for filter and hover effect */
     
     &:hover {
