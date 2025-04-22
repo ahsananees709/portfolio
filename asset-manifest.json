@@ -1,21 +1,34 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.018f3c02.css",
-    "main.js": "/portfolio/static/js/main.ea8d5bbd.js",
+    "main.js": "/portfolio/static/js/main.533184ee.js",
+    "static/media/Ajar2.png": "/portfolio/static/media/Ajar2.6e28452d31b485310ae1.png",
+    "static/media/Ajar3.png": "/portfolio/static/media/Ajar3.31f6ad2bc0f1a0143c69.png",
     "static/media/Ajar.png": "/portfolio/static/media/Ajar.de846bf7533f85d3aecf.png",
     "static/media/LonicFlex.png": "/portfolio/static/media/LonicFlex.06af197c7ac895ae0338.png",
     "static/media/QuizApp.png": "/portfolio/static/media/QuizApp.37aaa55bef9c74ac916a.png",
     "static/media/Ahsan_Anees_Resume.pdf": "/portfolio/static/media/Ahsan_Anees_Resume.5fc8141166b5fc69dd1d.pdf",
+    "static/media/EServices2.png": "/portfolio/static/media/EServices2.4b4a72df59a7f609c2df.png",
     "static/media/EServices.png": "/portfolio/static/media/EServices.9ed34f7230a49aac3c30.png",
+    "static/media/Ajar4.png": "/portfolio/static/media/Ajar4.31dae5b322881a41f1b5.png",
     "static/media/Hello.gif": "/portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/TodoApp.png": "/portfolio/static/media/TodoApp.7d84d88ef4f60c4a7a45.png",
-    "static/media/AjarAdmin.png": "/portfolio/static/media/AjarAdmin.40356230153043743dd2.png",
+    "static/media/AjarAdmin2.png": "/portfolio/static/media/AjarAdmin2.40356230153043743dd2.png",
     "static/media/AhsanMartAdmin.png": "/portfolio/static/media/AhsanMartAdmin.cdea7e766ba04d399f82.png",
     "static/media/OneAcademy.png": "/portfolio/static/media/OneAcademy.5ccbfeab81cc82a990b2.png",
+    "static/media/OneAcademy2.png": "/portfolio/static/media/OneAcademy2.5ccbfeab81cc82a990b2.png",
     "static/media/AirBnb.png": "/portfolio/static/media/AirBnb.ed8909208eaa01aa312f.png",
     "static/media/AhsanMart.png": "/portfolio/static/media/AhsanMart.a81d8fb59fc8f53c898f.png",
+    "static/media/AjarAdmin.png": "/portfolio/static/media/AjarAdmin.76310826f11702cbf20d.png",
+    "static/media/AhsanMart2.png": "/portfolio/static/media/AhsanMart2.68ebde52e5903bf1cc4d.png",
+    "static/media/EServices4.png": "/portfolio/static/media/EServices4.59efb3be5583d2f53dec.png",
+    "static/media/AjarAdmin3.png": "/portfolio/static/media/AjarAdmin3.8b76261151a79b8f98ba.png",
     "static/media/AhsanAnees.jpg": "/portfolio/static/media/AhsanAnees.1068c74381c424bf8fa5.jpg",
-    "static/media/BudgetApp.png": "/portfolio/static/media/BudgetApp.f2311a358883f2fb4388.png",
+    "static/media/EServices5.png": "/portfolio/static/media/EServices5.82cb31179605af222866.png",
+    "static/media/BudgetApp2.png": "/portfolio/static/media/BudgetApp2.f2311a358883f2fb4388.png",
+    "static/media/AhsanMart3.png": "/portfolio/static/media/AhsanMart3.dae616e637798909e2e8.png",
+    "static/media/BudgetApp.png": "/portfolio/static/media/BudgetApp.789e4d19103e1fcad482.png",
+    "static/media/EServices3.png": "/portfolio/static/media/EServices3.f9dc00f0642508e75982.png",
     "static/media/illustration.svg": "/portfolio/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
     "static/media/sass-icon.svg": "/portfolio/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
     "static/media/node-icon.svg": "/portfolio/static/media/node-icon.3dc364b8e9beb3561620274aea4f0844.svg",
@@ -37,10 +50,10 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "main.018f3c02.css.map": "/portfolio/static/css/main.018f3c02.css.map",
-    "main.ea8d5bbd.js.map": "/portfolio/static/js/main.ea8d5bbd.js.map"
+    "main.533184ee.js.map": "/portfolio/static/js/main.533184ee.js.map"
   },
   "entrypoints": [
     "static/css/main.018f3c02.css",
-    "static/js/main.ea8d5bbd.js"
+    "static/js/main.533184ee.js"
   ]
 }
